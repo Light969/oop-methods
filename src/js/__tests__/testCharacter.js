@@ -59,7 +59,9 @@ test('Проверяем урон, наносимый персонажу', () =>
   testHealth.attack = 40;
   testHealth.defense = 10;
   testHealth.damage(10);
-  const result = { name: 'Кеша', type: 'Zombie', health: 91, level: 1, attack: 40, defence: 10, };
+  const result = {
+    name: 'Кеша', type: 'Zombie', health: 91, level: 1, attack: 40, defense: 10,
+  };
   expect(testHealth).toEqual(result);
 });
 

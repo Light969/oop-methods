@@ -1,5 +1,6 @@
+import './css/style.css';
 // import './js/app.js';
-import './js/Character.js';
+// import './js/Character.js';
 import Character from './js/Character.js';
 
 import Bowerman from './js/Bowerman.js';
